@@ -13,7 +13,7 @@ function setUserName() {
     setUserName();
   } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool, ' + storedName;
+    myHeading.textContent = 'Здравствуйте, ' + storedName;
   }
     if(mySrc === 'images/image2.jpg') {
       myImage.setAttribute ('src','images/image2.jpg');
